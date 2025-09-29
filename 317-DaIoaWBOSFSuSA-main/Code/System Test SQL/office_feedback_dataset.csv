@@ -1,0 +1,106 @@
+feedback,sentiment
+"The library staff was very helpful and knowledgeable.",Positive
+"I had a great experience with the guidance counseling.",Positive
+"The admin office provided quick and efficient service.",Positive
+"The customer service team was responsive and resolved my issue promptly.",Positive
+"The maintenance crew did a great job fixing the plumbing issue.",Positive
+"The staff at the student government office were friendly and helpful.",Positive
+"The student organizations office organized a fantastic event.",Positive
+"The student affairs office provided excellent support and guidance.",Positive
+"The school clinic staff were helpful and friendly.",Positive
+"I had an excellent experience at the library.",Positive
+"The guidance counseling session was very helpful.",Positive
+"The admin office provided efficient service.",Positive
+"The customer service team resolved my issue promptly.",Positive
+"The technical support provided by the IT department was excellent.",Positive
+"The maintenance crew fixed the issue quickly.",Positive
+"The HR department was professional and efficient.",Positive
+"The staff at the student government office were responsive.",Positive
+"The student organizations office organized a successful event.",Positive
+"The student affairs office addressed my concern effectively.",Positive
+"The library staff provided excellent assistance.",Positive
+"I received great support from the guidance counseling.",Positive
+"The admin office staff were polite and helpful.",Positive
+"The school clinic provided satisfactory service.",Positive
+"The customer service team was attentive and helpful.",Positive
+"The technical support team resolved my issue effectively.",Positive
+"The maintenance crew responded promptly and fixed the problem.",Positive
+"The HR department handled my request efficiently.",Positive
+"The staff at the student government office were friendly and approachable.",Positive
+"The student organizations office was well-organized and efficient.",Positive
+"The student affairs office provided valuable support.",Positive
+"The library staff were knowledgeable and helpful.",Positive
+"The guidance counseling session was informative and supportive.",Positive
+"The admin office provided timely and efficient service.",Positive
+"The school clinic staff were professional and caring.",Positive
+"The customer service team went above and beyond to help me.",Positive
+"The technical support provided by the IT department was exceptional.",Positive
+"The maintenance crew did an outstanding job fixing the issue.",Positive
+"The HR department responded promptly and professionally.",Positive
+"The staff at the student government office were helpful and courteous.",Positive
+"The student organizations office was responsive and accommodating.",Positive
+"The student affairs office addressed my concerns promptly and effectively.",Positive
+"I had an amazing experience at the library.",Positive
+"The guidance counseling session exceeded my expectations.",Positive
+"The admin office staff were friendly and efficient.",Positive
+"The school clinic provided excellent care and support.",Positive
+"The customer service team was extremely helpful and attentive.",Positive
+"The technical support team was quick to respond and resolve my issue.",Positive
+"The maintenance crew provided prompt and effective service.",Positive
+"The HR department was responsive and helpful in addressing my concerns.",Positive
+"The staff at the student government office were knowledgeable and supportive.",Positive
+"The student organizations office was well-run and organized.",Positive
+"The student affairs office was proactive in addressing my needs.",Positive
+"The guidance counselor wasn't available when I needed them most to discuss my college options.",Negative
+"The career counseling session felt like a generic presentation and didn't offer any personalized advice.",Negative
+"I couldn't get an appointment with the counselor due to long wait times and limited availability.",Negative
+"The guidance office doesn't offer enough resources or support groups for students struggling with anxiety.",Negative
+"The information provided by the guidance counselor about scholarships was outdated and inaccurate.",Negative
+"The wait times at the clinic are excessively long, especially when I'm feeling unwell and need immediate attention.",Negative
+"The clinic staff seemed rushed and dismissive of my concerns when I explained my symptoms.",Negative
+"The clinic only offers a limited range of over-the-counter medications, and I had to go to a pharmacy for what I needed.",Negative
+"The clinic hours are inconvenient and don't cover evenings or weekends, making it difficult to seek medical attention after school.",Negative
+"There's a lack of privacy in the clinic's examination rooms, making it uncomfortable to discuss sensitive health concerns.",Negative
+"All the school clubs and organizations seem to cater to the same interests, leaving little variety for students with different passions.",Negative
+"Getting involved in clubs can be challenging due to limited information and an unclear application process.",Negative
+"The club advisor wasn't supportive of my creative ideas for new activities and events.",Negative
+"Club meetings are poorly organized, lack direction, and often go off on tangents instead of focusing on planned activities.",Negative
+"The organization's events are poorly advertised with low attendance, making it seem like no one cares about their initiatives.",Negative
+"The library has limited hours, making it difficult to use resources for evening study sessions or research projects.",Negative
+"The library collection has a lot of outdated and irrelevant materials, taking away from valuable resources students could use.",Negative
+"Finding specific books or resources within the library can be challenging due to poor organization and lack of clear signage.",Negative
+"The library lacks quiet study spaces for focused work, with constant interruptions and noise from other students.",Negative
+"The library staff isn't helpful in locating specific materials or answering research questions, making independent research difficult.",Negative
+"Dealing with the admin office is a bureaucratic nightmare with endless paperwork and complicated procedures.",Negative
+"The staff at the admin office is unhelpful, unfriendly, and often gives unclear or conflicting information.",Negative
+"Getting transcripts or other documents from the admin office takes a long time and requires navigating complex processes.",Negative
+"The communication from the admin office regarding school policies and procedures is unclear and leaves students confused.",Negative
+"The admin office doesn't seem transparent about how student fees are used, leading to a lack of trust from the student body.",Negative
+"The student government doesn't actively represent the needs and interests of the general student population.",Negative
+"The student government elections seem rigged or unfair, favoring specific groups or ignoring student concerns.",Negative
+"The student government doesn't take initiative to reach out to students for feedback on proposed initiatives.",Negative
+"Student government events are poorly planned, poorly executed, and often fail to draw any real interest from students.",Negative
+"Student government meetings are often closed-door with limited transparency, making them seem unaccountable to the student body.",Negative
+"The student affairs office doesn't provide adequate support for students facing discrimination or harassment, leaving them feeling unsupported.",Negative
+"The response from student affairs to disciplinary issues seems unfair and inconsistent, leading to confusion about expectations.",Negative
+"The student affairs office doesn't have a clear process for addressing student complaints, making it difficult to seek resolution.",Negative
+"The resources offered by student affairs to help students adjust to college life are lacking, leaving many feeling overwhelmed.",Negative
+"The student affairs office doesn't offer enough workshops or programs on topics relevant to student life, such as time management or financial literacy.",Negative
+"I love this product!",Positive
+"The service was terrible.",Negative
+"This movie is amazing!",Positive
+"I'm so disappointed with their customer support.",Negative
+"Just had the best meal of my life!",Positive
+"The quality of this product is subpar.",Negative
+"I can't stop listening to this song. It's incredible!",Positive
+"Their website is so user-friendly. Love it!",Positive
+"I loved the movie! It was fantastic!",Positive
+"The customer service was terrible.",Negative
+"This book made me feel inspired. Highly recommended!",Positive
+"I'm extremely disappointed with their product quality.",Negative
+"Just had the most amazing vacation! I can't wait to go back.",Positive
+"The food at this restaurant was awful. Never going back again!",Negative
+"I can't stop listening to this song. It's my new favorite!",Positive
+"Their website is so confusing and poorly designed.",Negative
+"I had an incredible experience at the theme park. So much fun!",Positive
+"I hate the way the staff handle the client needs they are lousy and very bad at it.",Negative

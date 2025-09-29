@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Data</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/server.css') }}" rel="stylesheet">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Admin Dashboard</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('signup_page') }}">Signup</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0" action="{{ url_for('logout') }}" method="POST">
+            <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Logout</button>
+        </form>
+    </div>
+</nav>
+
+<div class="container">
+    <h2>Feedback Data</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Email</th>
+                <th>Feedback</th>
+                <th>Rating</th>
+                <th>Sentiment</th> <!-- Added sentiment column -->
+            </tr>
+        </thead>
+        <tbody>
+            {% for feedback in feedback_data %}
+            <tr>
+                <td>{{ feedback['email'] }}</td>
+                <td>{{ feedback['feedback'] }}</td>
+                <td>{{ feedback['rating'] }}</td>
+                <td>{{ feedback['sentiment'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+        
+    </table>
+
+    <!-- Display feedback percentages -->
+    <div class="row">
+        <div class="col-md-6">
+            <h4>Negative Feedback Percentage: {{ negative_percentage }}%</h4>
+            <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: {{ negative_percentage }}%;" aria-valuenow="{{ negative_percentage }}" aria-valuemin="0" aria-valuemax="100">{{ negative_percentage }}%</div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h4>Positive Feedback Percentage: {{ positive_percentage }}%</h4>
+            <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" style="width: {{ positive_percentage }}%;" aria-valuenow="{{ positive_percentage }}" aria-valuemin="0" aria-valuemax="100">{{ positive_percentage }}%</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
